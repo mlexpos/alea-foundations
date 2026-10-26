@@ -1,7 +1,8 @@
 # gaussian-foundations
 
-Gaussian-process and Gaussian-concentration foundations for the ~/Documents/lean workspace (Lean v4.34.1,
-shared Mathlib checkout), built on lean-stat-learning-theory (`../vendor/slt`, branch `v4.34.1-port`).
+Gaussian-process and Gaussian-concentration foundations for Lean v4.34.1 and Mathlib v4.34.1,
+built on the `v4.34.1-port` branch of
+[`mlexpos/lean-stat-learning-theory`](https://github.com/mlexpos/lean-stat-learning-theory/tree/v4.34.1-port).
 
 Targets (statements are verbatim the `Muon.External` certificates, which `Muon/External/Discharge.lean` proves):
 - `GaussianFoundations.gaussianOpNorm`, `gaussianOpNormL6` — rectangular Gaussian matrix operator norm (HDP 4.4.5)

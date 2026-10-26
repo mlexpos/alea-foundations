@@ -14,10 +14,10 @@ name = "mathlib"
 git = "https://github.com/leanprover-community/mathlib4"
 rev = "v4.34.1"
 
-# lean-stat-learning-theory, ported to v4.34.1 and vendored in this repository.
 [[require]]
 name = "SLT"
-path = "../vendor/slt"
+git = "https://github.com/mlexpos/lean-stat-learning-theory"
+rev = "141d5210706b556840e31c7fefce07788af0e771"
 
 [[lean_lib]]
 name = "MatrixConcentration"

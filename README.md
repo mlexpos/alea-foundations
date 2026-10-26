@@ -20,7 +20,8 @@ lake exe cache get
 lake build
 ```
 
-The two concentration packages use a v4.34.1 port of
-[`lean-stat-learning-theory`](https://github.com/YuanheZ/lean-stat-learning-theory),
-included under `vendor/slt/`. That vendored component retains its Apache-2.0
-license in `vendor/slt/LICENSE`.
+The two concentration packages use the
+[`v4.34.1-port`](https://github.com/mlexpos/lean-stat-learning-theory/tree/v4.34.1-port)
+branch of the `mlexpos` fork of
+[`lean-stat-learning-theory`](https://github.com/YuanheZ/lean-stat-learning-theory).
+The dependency is pinned to an exact Git commit in both Lake package files.
