@@ -1,0 +1,23 @@
+name = "matrix_concentration"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["MatrixConcentration"]
+
+[leanOptions]
+pp.unicode.fun = true
+relaxedAutoImplicit = false
+autoImplicit = false
+weak.linter.mathlibStandardSet = true
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "v4.34.1"
+
+# lean-stat-learning-theory, ported to v4.34.1 and vendored in this repository.
+[[require]]
+name = "SLT"
+path = "../vendor/slt"
+
+[[lean_lib]]
+name = "MatrixConcentration"
